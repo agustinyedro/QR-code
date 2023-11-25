@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #D5E1EF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    figure {
+      width: 450px;
+      height:700px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media (max-width: 720px) {
+      figure{
+        width: auto;
+        margin:20px;
+        
+      }
+    }
+
+    img {
+      width: 95%;
+      border-radius: 20px;
+      margin: 20px;
+    }
+
+    figcaption {
+      margin: 20px;
+      font-size: 30px;
+      text-align: center;
+      font-weight: 700;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 20px 20px 60px 20px;
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #202020;
+
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <figure>
+      <img src="./images/image-qr-code.png" alt="codigoqr">
+      <figcaption>Improve your front-end skills by building projects</figcaption>
+      <p> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </figure>
+    <div class="attribution">
+      <span>Challenge by</span> <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>.
+      Coded by <a href="https://github.com/agustinyedro">Agustin Yedro</a>.
+    </div>
+  </main>
+</body>
+
+</html>
